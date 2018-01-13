@@ -1,0 +1,86 @@
+*::-webkit-scrollbar {
+  display: none;
+}
+
+.application--wrap {
+  background: #FC466B;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #3F5EFB, #FC466B);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#table {
+  border-collapse: collapse;
+}
+
+#table tbody tr{
+  border-bottom:2px solid blueviolet;
+}
+
+#table th{
+  width: 300px;
+  padding: 20px;
+  color:white;
+}
+
+#table th:last-child {
+  /*width:10px;*/
+}
+
+#table td {
+  width:350px;
+  padding:10px;
+  text-align: center;
+}
+
+
+
+
+
+
+#table thead {
+  display: block;
+  background: #141E30;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+}
+
+
+
+#table tbody {
+  display: block;
+  max-height: 380px;
+  background: #ADA996;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  overflow-y: scroll;
+}
+
+
+
+
+/* ANIMATION WHEN ADDING NEW ROW*/
+
+.first-row {
+  animation: color-out ease-out 3s forwards;
+}
+
+@keyframes color-out {
+  0% { background: linear-gradient(to right, rgba(63, 94, 251, 1), rgba(252, 70, 107, 1))}
+  10% { background: linear-gradient(to right, rgba(63, 94, 251, .9), rgba(252, 70, 107, .9))}
+  20% { background: linear-gradient(to right, rgba(63, 94, 251, .8), rgba(252, 70, 107, .8))}
+  30% { background: linear-gradient(to right, rgba(63, 94, 251, .7), rgba(252, 70, 107, .7))}
+  40% { background: linear-gradient(to right, rgba(63, 94, 251, .6), rgba(252, 70, 107, .6))}
+  50% { background: linear-gradient(to right, rgba(63, 94, 251, .5), rgba(252, 70, 107, .5))}
+  60% { background: linear-gradient(to right, rgba(63, 94, 251, .4), rgba(252, 70, 107, .4))}
+  70% { background: linear-gradient(to right, rgba(63, 94, 251, .3), rgba(252, 70, 107, .3))}
+  80% { background: linear-gradient(to right, rgba(63, 94, 251, .2), rgba(252, 70, 107, .2))}
+  90% {background: linear-gradient(to right, rgba(63, 94, 251, .1), rgba(252, 70, 107, .1))}
+  100% {background: linear-gradient(to right, rgba(63, 94, 251, 0), rgba(252, 70, 107, 0))}
+}
+
+/* ANIMATION ENDS*/
+
