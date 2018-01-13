@@ -23,9 +23,14 @@ npm run dev
 composer install
 
 ## Step5:
->The last step is to migrate the Database you have configured and then run:
+>Then migrate the Database you have configured and then run:
 
 php artisan migrate
+
+## Step6:
+>The last step is to migrate the seed:
+
+php artisan migrate db:seed
 
 >Finally run:
 
