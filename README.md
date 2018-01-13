@@ -1,21 +1,32 @@
-# frontend
+To make the project run successfully on your computer follow the steps below
 
-> A Vue.js project
+Note that this project uses Lumen for API.To learn about Lumen check https://github.com/laravel/lumen
 
-## Build Setup
+## Step1:
+> Beside this project download Lumen backend in this link: here will add the link
 
-``` bash
-# install dependencies
-npm install
+## Step2:
+> Navigate to your VueJS project you have donwloaded,by terminal and install dependencies like below:
+>npm install
 
-# serve with hot reload at localhost:8080
-npm run dev
+## Step3:
+> Next,type the below code serve the frontend:
+>npm run dev
 
-# build for production with minification
-npm run build
+## Step4:
+> Now,you have to configure the backend which is the Lumen project you have donwloaded.
+> So,change the DB details in the .env file and also in the /config/database.php.
+>Then open CMD,Go to the directory where the project is and enter the command like below:
+> composer install
 
-# build for production and view the bundle analyzer report
-npm run build --report
-```
+## Step5:
+>The last step is to migrate the Database you have configured and then run:
+>php artisan migrate
+>And finally run:
+>php artisan serve
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## Enjoy it ##
+
+
+
+
