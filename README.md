@@ -28,9 +28,13 @@ composer install
 php artisan migrate
 
 ## Step6:
->The last step is to migrate the seed:
+>Next the seed:
 
 php artisan migrate db:seed
+
+## Step7
+>Finally in vueJS-project in src\Axios Instances open the lumenRequest.js and in baseURL
+you have to type the url that lumen runs.Propably is http://localhost:8080
 
 >Finally run:
 
