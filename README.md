@@ -36,9 +36,9 @@ php artisan migrate db:seed
 >Finally in vueJS-project in src\Axios Instances open the lumenRequest.js and in baseURL
 you have to type the url that lumen runs.Propably is http://localhost:8080
 
->Finally run:
+>Finally run the follow command in Lumen project:
 
-php artisan serve
+php -S localhost:8000 -t public
 
 ## Enjoy it ##
 

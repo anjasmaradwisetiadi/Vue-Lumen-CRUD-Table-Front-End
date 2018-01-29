@@ -103,7 +103,9 @@ export default {
         console.clear()
       },1)
 
-      this.$refs.dataRows.children[1].className = 'first-row'
+      setTimeout(() => {
+        this.$refs.dataRows.children[1].className = 'first-row'
+      },300)
       setTimeout(() => {
         this.$refs.dataRows.children[1].classList.remove("first-row")
       },1200)
